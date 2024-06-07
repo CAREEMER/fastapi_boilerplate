@@ -2,20 +2,17 @@
 name = "base_backend_template"
 version = "0.1.0"
 description = ""
-authors = ["Rashid Mingazov <rashid.mingazov@mircod.com>"]
+authors = ["Rashid Mingazov <my@rdmingazov.ru>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 fastapi = "^0.79.0"
 pydantic = "^1.9.2"
-aiohttp = "^3.8.1"
 uvicorn = "^0.18.2"
-loguru = "^0.6.0"
-psycopg2-binary = "2.9.1"
-sqlmodel = "^0.0.6"
 asyncpg = "^0.26.0"
 greenlet = "^1.1.2"
 alembic = "^1.8.1"
+sqlalchemy = "^2.0.30"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
